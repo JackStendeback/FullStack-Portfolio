@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-portfolio",
+  "version": "1.0.0",
+  "description": "* Make sure to deploy this to Netlify, or some other deployement site for ease of use and access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
