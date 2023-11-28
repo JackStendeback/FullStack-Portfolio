@@ -6,24 +6,103 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-slate-700">
-    <div class="">
-        <ul class="flex justify-between">
-            <li class="mr-3">
-              <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white" href="#">About Me</a>
-            </li>
-            <li class="mr-3">
-                <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white" href="#">Portfolio Projects</a>
-            </li>
-            <li class="mr-3">
-                <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white" href="#">Skills</a>
-            </li>
-            <li class="mr-3">
-                <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white" href="#">Contact Me</a>
-            </li>
-          </ul>
-        <h1 class="bg-red-400 uppercase px-52 py-40 text-5xl pb-28 ">Jack Stendeback || MERN Stack Portfolio</h1>
-    </div>
+<body class="bg-gray-900 text-white">
 
-</body>
+    <!-- Navbar -->
+    <nav class="bg-gray-800 py-6">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Jack Stendeback</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+          <li><a href="#contact-me" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- Hero Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold mb-4">Welcome To My Portfolio</h1>
+          <p class="text-lg">A passionate MERN stack developer creating awesome web applications.</p>
+        </div>
+      </div>
+    </section>
+  
+   <!-- Projects Section -->
+<section class="bg-gray-800 py-20" id="projects">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Cards -->
+        <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+          <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+            <p class="text-gray-400">Description of the project...</p>
+          </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+            <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+              <p class="text-gray-400">Description of the project...</p>
+            </div>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+            <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+              <p class="text-gray-400">Description of the project...</p>
+            </div>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+            <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Project 4</h3>
+              <p class="text-gray-400">Description of the project...</p>
+            </div>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+            <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Project 5</h3>
+              <p class="text-gray-400">Description of the project...</p>
+            </div>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+            <img src="https://via.placeholder.com/600x400.png" alt="Project 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Project 6</h3>
+              <p class="text-gray-400">Description of the project...</p>
+            </div>
+          </div>
+        <!-- Add more project cards here -->
+      </div>
+    </div>
+  </section>
+  
+    <!-- Contact Section -->
+    <section class="py-16" id="contact-me">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+          <p class="text-lg mb-8">Let's connect and work together on your next project.</p>
+          <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full inline-block">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 text-center">
+      <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+    </footer>
+  
+  </body>
 </html>
